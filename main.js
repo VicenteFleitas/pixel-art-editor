@@ -1,5 +1,5 @@
 import Picture from "./Picture.js";
-import { draw, fill, rectangle, pick, circle } from "./DrawingTools.js";
+import { draw, fill, rectangle, pick, circle, line } from "./DrawingTools.js";
 import ToolSelect from "./ToolSelect.js";
 import ColorSelect from "./ColorSelect.js";
 import SaveButton from "./SaveButton.js";
@@ -16,7 +16,7 @@ const startState = {
   doneAt: 0,
 };
 
-const baseTools = { draw, fill, rectangle, pick, circle };
+const baseTools = { draw, fill, rectangle, pick, circle, line };
 
 const baseControls = [
   ToolSelect,
