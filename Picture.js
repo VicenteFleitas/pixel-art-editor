@@ -19,3 +19,5 @@ class Picture {
     return new Picture(this.width, this.height, copy);
   }
 }
+
+export default Picture;

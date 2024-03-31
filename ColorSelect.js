@@ -1,3 +1,5 @@
+import { elt } from "./utils.js";
+
 class ColorSelect {
   constructor(state, { dispatch }) {
     this.input = elt("input", {

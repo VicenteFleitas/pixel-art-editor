@@ -1,4 +1,5 @@
 import PictureCanvas from "./PictureCanvas.js";
+import { elt } from "./utils.js";
 
 class PixelEditor {
   constructor(state, config) {

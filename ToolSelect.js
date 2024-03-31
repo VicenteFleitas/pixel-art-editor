@@ -1,3 +1,5 @@
+import { elt } from "./utils.js";
+
 class ToolSelect {
   constructor(state, { tools, dispatch }) {
     this.select = elt(
